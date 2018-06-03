@@ -1,0 +1,120 @@
+
+<html><head>
+
+    <script language="javascript" type="text/javascript" src="title.js"></script>
+    <link href="css.css" rel="stylesheet" type="text/css">
+    <link href="css_2.css" rel="stylesheet" type="text/css">
+    <title>¥ em1ly.pw</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="icon" href="icon.png">
+    <script src="jquery.min.js"></script>
+<script>  
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('txt').innerHTML =
+            h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+    }
+</script>
+
+<script>
+    function renderTime(){
+        var mydate = new Date();
+        var year = mydate.getYear();
+        if(year < 1000){
+            year +=1900
+        }
+        var day = mydate.getDay();
+        var month = mydate.getMonth();
+        var daym = mydate.getDate();
+        var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+        var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
+        var myClock = document.getElementById("clockBox");
+        myClock.textContent = "" +dayarray[day]+ ", " +montharray[month]+ " " +daym;
+        myClock.innerText = "" +dayarray[day]+ ", " +montharray[month]+ " " +daym;
+        var z = setTimeout(rendertime(), 1000);
+    }
+</script>
+<script>
+    function onStart(){
+        startTime();
+        renderTime();
+    }
+</script>
+
+
+
+
+
+<video autoplay="" loop="" id="player">
+    <source src="w u.mp4" type="video/mp4">
+    <script>
+        var video = document.getElementById('player');
+        video.volume = 0.1;
+    </script>
+</video>
+<canvas id="spiders" width="1232" height="970"></canvas>
+<div class="outer animated fadeInDown">
+    <header class="middle">
+        <div class="inner">
+            <a href="https://steamcommunity.com/profiles/76561198839083000" class="animated fadeInDown"> EM<span>1</span>LY.<span>PW</span></a>
+        </div>
+    </header>
+</div>
+<div class="moveup animated fadeInUp">
+    <marquee>
+        <p class="marq">
+                                                   
+                                           Friends: <a href="https://steamcommunity.com/id/shiningmoonlight" target="newTab">Luna♥</a> x 
+                                   					<a href="https://steamcommunity.com/id/MyFavoriteFlower/" target="newTab">Daisy♥</a> x
+                                   					<a href="https://steamcommunity.com/id/rosesarepink" target="newTab">Rose♥</a> x
+                                                    <a href="https://steamcommunity.com/id/berenklauw" target="newTab">Nooraa♥</a> x
+                                                    <a href="https://steamcommunity.com/id/ImNotUsingMyMomsComputerISwear" target="newTab">Camillia♥</a>
+
+
+
+                                                
+                                                </p><span id="dtText"></span></marquee>
+                                                <div class="divide"></div>
+                                                <p>big weeb over here ♥</p>
+                                                 </div>       
+
+
+<script>
+
+    document.onkeydown = function(e) {
+        if(e.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+        }
+
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+            return false;
+        }
+    }
+
+</script>
+<script type="text/javascript">
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+
+</body><div style="top: 0px; left: 600px;"></div></html>
